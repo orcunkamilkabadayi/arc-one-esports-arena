@@ -27,6 +27,9 @@ The local preview runs at `http://localhost:3000`.
 - `public/og.png` — social preview image.
 - `.openai/hosting.json` — Sites project metadata; keep its `project_id` intact.
 
+- `skills/website-design/SKILL.md` — project-specific guidance for future website design and redesign work.
+- `BRAND.md`, `DESIGN_BRIEF.md`, and `design-tokens.json` — ARC//ONE visual direction and reusable design tokens.
+
 ## Implementation guidelines
 
 - Preserve the ARC//ONE visual system unless a redesign is explicitly requested.
@@ -36,6 +39,7 @@ The local preview runs at `http://localhost:3000`.
 - Do not replace the generated hero imagery with CSS/SVG scene stand-ins.
 - Keep dependencies minimal and respect the existing npm lockfile.
 - Never commit secrets, tokens, local credentials, or generated build/cache directories.
+- For page creation or substantial visual work, read `skills/website-design/SKILL.md` and apply its ARC//ONE brand guardrails.
 
 ## Secret handling
 
@@ -46,7 +50,7 @@ The local preview runs at `http://localhost:3000`.
 - If a secret is ever pushed accidentally, treat it as compromised: revoke/rotate it first, then remove it from the repository history with explicit user approval.
 ## Git and approval workflow
 
-The GitHub repository is `https://github.com/orcunkamilkabadayi/arc-one-esports-arena`.
+The GitHub repository is `https://github.com/orcunkamilkabadayi/esporakademisi`.
 
 - `github` is the GitHub remote and `origin` is the private Sites remote; keep both remotes intact.
 - Do not push speculative or unapproved product changes.
