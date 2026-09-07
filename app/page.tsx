@@ -107,7 +107,7 @@ export default function Home() {
       </section>
 
       <section id="academy" className="academy-invite"><div><p className="eyebrow">ESPOR AKADEMİSİ / 003</p><h2>Bir sonraki<br /><em>maçın</em> burada.</h2></div><div className="invite-note"><p>Yarın: eğitim rotaları, takım profilleri ve canlı turnuva merkezi.</p><button onClick={() => scrollTo('#top')}>Başa dön <ArrowUpRight /></button></div></section>
-      <footer className="academy-footer"><span>© 2026 ESPOR AKADEMİSİ</span><span>ISTANBUL / TR</span><span className="footer-live"><Radio /> SYSTEM ONLINE</span></footer>
+      <footer className="academy-footer"><span>© 2026 ESPOR AKADEMİSİ</span><span>Serdivan/Sakarya</span><span className="footer-live"><Radio /> SYSTEM ONLINE</span></footer>
 
       {active && <div className="gear-modal-backdrop" role="presentation" onClick={() => setActiveGear(null)}><aside className="gear-modal" role="dialog" aria-modal="true" aria-labelledby="gear-title" onClick={(event) => event.stopPropagation()}><button className="modal-close" aria-label="Pencereyi kapat" onClick={() => setActiveGear(null)}><X /></button><div className="modal-icon">{<active.icon />}</div><p className="eyebrow">{active.kicker}</p><h3 id="gear-title">{active.title}</h3><p>{active.body}</p><strong>{active.spec}</strong></aside></div>}
     </main>
