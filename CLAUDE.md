@@ -52,7 +52,7 @@ The local preview runs at `http://localhost:3000`.
 
 The GitHub repository is `https://github.com/orcunkamilkabadayi/esporakademisi`.
 
-- `github` is the GitHub remote and `origin` is the private Sites remote; keep both remotes intact.
+- `github` is the only active remote and points to the GitHub repository. The former ChatGPT Sites `origin` remote was intentionally removed to disable its credential prompts and background sync.
 - Do not push speculative or unapproved product changes.
 - Once a user-approved change is complete, run the secret-handling checks above and the relevant validation (`npm.cmd run build` at minimum for source changes), then immediately:
 
