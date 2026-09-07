@@ -19,3 +19,12 @@ Competitive players, esports viewers, event attendees, and performance-hardware 
 ## Guardrails
 
 Avoid generic SaaS composition, purple-gradient dark mode, abstract blobs, stock testimonials, and visual elements that do not support arena tension or hardware precision.
+
+
+## 2026-09-07 — Espor Akademisi ana sayfa fazı
+
+- Ürün adı: Espor Akademisi.
+- Ana deneyim: stadyum parçalarının kaydırma ile birleştiği 3D arena montajı ve oyuncu/loadout montajı.
+- Etkileşim: Oyuncu, forma, kulaklık, mouse ve klavye noktaları tıklanabilir bilgi pencereleri açar.
+- Görsel yön: mevcut asit-lime / grafit endüstriyel esports sistemi korunur; anlatım Türkçeleştirilir.
+- Kapsam: Bu faz yalnızca ana sayfadır. Eğitim, takım ve turnuva sayfaları sonraki fazda ele alınacaktır.

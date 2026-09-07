@@ -6,23 +6,23 @@ const inter = Inter({ variable: '--font-inter', subsets: ['latin'] });
 const spaceMono = Space_Mono({ variable: '--font-space-mono', subsets: ['latin'], weight: ['400', '700'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://arc-one-esports-arena.sakarya-ula-8935.chatgpt.site'),
-  title: 'ARC//ONE — Enter the Next Dimension of Play',
-  description: 'Step inside ARC//ONE: the esports arena and pro-grade performance system built for the world final.',
+  metadataBase: new URL('https://esporakademisi.com'),
+  title: 'Espor Akademisi — Oyunun Ötesine Geç',
+  description: 'Espor Akademisi: stadyumu ve profesyonel oyuncu ekipmanlarını kaydırma deneyimiyle keşfet.',
   openGraph: {
-    title: 'ARC//ONE — Enter the Next Dimension of Play',
-    description: 'The arena awakens. Explore the stadium, the loadout, and the world final.',
+    title: 'Espor Akademisi — Oyunun Ötesine Geç',
+    description: 'Stadyumu kur, oyuncu ekipmanlarını keşfet ve oyunun ötesine geç.',
     type: 'website',
-    images: [{ url: '/og.png', width: 1536, height: 1024, alt: 'ARC//ONE esports arena' }],
+    images: [{ url: '/og.png', width: 1536, height: 1024, alt: 'Espor Akademisi esports arena' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ARC//ONE — Enter the Next Dimension of Play',
-    description: 'The arena awakens. Explore the stadium, the loadout, and the world final.',
+    title: 'Espor Akademisi — Oyunun Ötesine Geç',
+    description: 'Stadyumu kur, oyuncu ekipmanlarını keşfet ve oyunun ötesine geç.',
     images: ['/og.png'],
   },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body className={`${inter.variable} ${spaceMono.variable}`}>{children}</body></html>;
+  return <html lang="tr"><body className={`${inter.variable} ${spaceMono.variable}`}>{children}</body></html>;
 }

@@ -1,8 +1,8 @@
-# ARC//ONE Esports Website
+# Espor Akademisi Website
 
 ## Project overview
 
-ARC//ONE is a cinematic, scroll-driven esports landing page built with React, Vinext, Vite, and Node.js. The homepage introduces a fictional esports arena, then transitions through tournament-grade keyboard, mouse, and headset chapters as the visitor scrolls.
+Espor Akademisi is a cinematic, scroll-driven esports education and experience website built with React, Vinext, Vite, and Node.js. The homepage assembles an esports stadium and a professional player loadout as the visitor scrolls.
 
 The visual language is intentionally premium and broadcast-inspired: graphite/black surfaces, acid-lime accents, condensed uppercase typography, thin technical rules, and restrained motion.
 
@@ -28,11 +28,11 @@ The local preview runs at `http://localhost:3000`.
 - `.openai/hosting.json` — Sites project metadata; keep its `project_id` intact.
 
 - `skills/website-design/SKILL.md` — project-specific guidance for future website design and redesign work.
-- `BRAND.md`, `DESIGN_BRIEF.md`, and `design-tokens.json` — ARC//ONE visual direction and reusable design tokens.
+- `BRAND.md`, `DESIGN_BRIEF.md`, and `design-tokens.json` — Espor Akademisi visual direction and reusable design tokens.
 
 ## Implementation guidelines
 
-- Preserve the ARC//ONE visual system unless a redesign is explicitly requested.
+- Preserve the acid-lime / graphite industrial esports system unless a redesign is explicitly requested.
 - Keep the scroll narrative smooth and meaningful on touch and desktop screens.
 - Maintain keyboard focus states, semantic landmarks, ARIA labels, Escape-to-close modal behavior, and `prefers-reduced-motion` support.
 - Use the existing shadcn `Button` primitive and Lucide icons for interface controls.
