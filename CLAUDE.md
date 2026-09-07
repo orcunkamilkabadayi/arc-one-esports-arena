@@ -37,13 +37,20 @@ The local preview runs at `http://localhost:3000`.
 - Keep dependencies minimal and respect the existing npm lockfile.
 - Never commit secrets, tokens, local credentials, or generated build/cache directories.
 
+## Secret handling
+
+- API keys, access tokens, passwords, private keys, cookies, and service credentials must never be committed to GitHub or pasted into source files, issue text, logs, or chat.
+- Keep local secrets only in `.env` (or another ignored local file). Use `.env.example` with empty placeholders and no real values for shared configuration.
+- Before every commit and push, scan the staged diff for credential patterns and inspect new configuration files. Stop immediately if anything sensitive is found; remove it from the staged diff and rotate the credential if it was exposed.
+- Never use `git add -f` for `.env`, `.env.local`, credential files, or private key files. The only environment file intended for GitHub is `.env.example`.
+- If a secret is ever pushed accidentally, treat it as compromised: revoke/rotate it first, then remove it from the repository history with explicit user approval.
 ## Git and approval workflow
 
 The GitHub repository is `https://github.com/orcunkamilkabadayi/arc-one-esports-arena`.
 
 - `github` is the GitHub remote and `origin` is the private Sites remote; keep both remotes intact.
 - Do not push speculative or unapproved product changes.
-- Once a user-approved change is complete, run the relevant validation (`npm.cmd run build` at minimum for source changes), then immediately:
+- Once a user-approved change is complete, run the secret-handling checks above and the relevant validation (`npm.cmd run build` at minimum for source changes), then immediately:
 
   ```powershell
   git add <approved files>
