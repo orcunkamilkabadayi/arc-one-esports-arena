@@ -55,7 +55,7 @@ npm.cmd run build
 - app/layout.tsx — Türkçe metadata ve sosyal paylaşım ayarları
 - public/arena-stadium.png — stadyum montaj görseli
 - public/player-athlete.png — oyuncu ve loadout görseli
-- CLAUDE.md — çalışma, Git ve gizli bilgi politikası
+- CLAUDE.md — proje çalışma notları
 - DESIGN_BRIEF.md — Espor Akademisi tasarım kapsamı
 
 ## Canlı adres
@@ -65,10 +65,6 @@ npm.cmd run build
 
 Konum: Serdivan/Sakarya
 
-## Güvenlik
-
-.env dosyası yerel kullanım içindir ve Git'e gönderilmez. API anahtarları, token'lar, parolalar ve diğer gizli bilgiler kaynak koduna veya README'ye eklenmemelidir. Paylaşılan yapılandırma için .env.example kullanılır.
-
 ## Lisans
 
-Bu proje Espor Akademisi için özel olarak geliştirilmektedir. İçerik ve görseller izinsiz kopyalanamaz.
+Bu proje www.adanzyeespor.com için özel olarak geliştirilmektedir. İçerik ve görseller izinsiz kopyalanamaz.
