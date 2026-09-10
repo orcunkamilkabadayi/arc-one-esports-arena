@@ -1,14 +1,24 @@
 {
   "$schema": "https://design-tokens.github.io/community-group/format/",
   "color": {
-    "ink": { "value": "#070906", "type": "color" },
-    "surface": { "value": "#0e120d", "type": "color" },
-    "acid": { "value": "#d7ff3f", "type": "color" },
-    "cream": { "value": "#f4f7ef", "type": "color" },
-    "steel": { "value": "#899084", "type": "color" },
-    "danger": { "value": "#ff5d47", "type": "color" }
+    "canvas": { "value": "#060806", "type": "color" },
+    "surface": { "value": "#0D110D", "type": "color" },
+    "surfaceSoft": { "value": "#151B14", "type": "color" },
+    "ink": { "value": "#F2F5ED", "type": "color" },
+    "inkSoft": { "value": "#A6AEA0", "type": "color" },
+    "accent": { "value": "#D7FF3F", "type": "color" },
+    "accentInk": { "value": "#080A06", "type": "color" },
+    "danger": { "value": "#FF644F", "type": "color" }
+  },
+  "typography": {
+    "display": { "value": "Outfit", "type": "fontFamily" },
+    "body": { "value": "Outfit", "type": "fontFamily" },
+    "technical": { "value": "Space Mono", "type": "fontFamily" },
+    "displayLineHeight": { "value": 0.91, "type": "number" },
+    "bodyLineHeight": { "value": 1.65, "type": "number" }
   },
   "spacing": {
+    "base": { "value": "4px", "type": "dimension" },
     "1": { "value": "4px", "type": "dimension" },
     "2": { "value": "8px", "type": "dimension" },
     "3": { "value": "12px", "type": "dimension" },
@@ -18,17 +28,16 @@
     "12": { "value": "48px", "type": "dimension" },
     "16": { "value": "64px", "type": "dimension" },
     "24": { "value": "96px", "type": "dimension" },
-    "32": { "value": "128px", "type": "dimension" }
+    "30": { "value": "120px", "type": "dimension" }
   },
-  "typography": {
-    "body": { "value": "Inter", "type": "fontFamily" },
-    "technical": { "value": "Space Mono", "type": "fontFamily" },
-    "headingLineHeight": { "value": 0.9, "type": "number" },
-    "bodyLineHeight": { "value": 1.7, "type": "number" }
+  "shape": {
+    "small": { "value": "2px", "type": "dimension" },
+    "medium": { "value": "4px", "type": "dimension" },
+    "large": { "value": "6px", "type": "dimension" }
   },
-  "radius": {
-    "sharp": { "value": "0px", "type": "dimension" },
-    "sm": { "value": "3px", "type": "dimension" },
-    "md": { "value": "6px", "type": "dimension" }
+  "motion": {
+    "easeOut": { "value": "cubic-bezier(0.23, 1, 0.32, 1)", "type": "cubicBezier" },
+    "micro": { "value": "150ms", "type": "duration" },
+    "normal": { "value": "240ms", "type": "duration" }
   }
 }
